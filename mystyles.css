@@ -6,6 +6,7 @@ body{
    font-family: Arial, Helvetica, sans-serif;
 
 }
+     /* navigation Bar */
 
 .navbar{
     width: 100%;
@@ -22,7 +23,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.navbar .nav-box .nav-list{
+.navbar .nav-box .nav-links-left{
     width: 70%;
     display: flex;
     justify-items: center;
@@ -30,26 +31,26 @@ body{
     margin-right: 10px;
 }
 
-.navbar .nav-list-rt{
+.navbar .nav-links-right{
     width: 30%;
     display: flex;
 }
-.navbar .nav-list-rt .sign-in{
+.navbar .nav-links-right .sign-in{
     width: 50%;
     background: rgb(0,81,119);
     margin-right: 10px;
     padding: 20px;
 }
 
-.navbar .nav-list-rt .sign-in i{
+.navbar .nav-links-right .sign-in i{
     padding-right: 25px;
 }
 
-.navbar .nav-list img{
+.navbar .nav-links-left img{
     width: 80px;
 }
 
-   /* links */
+   /*Navigation links */
 .navbar .nav-box a{
     color: #ffffff;
     text-decoration: none;
@@ -227,6 +228,9 @@ footer .footer-txt a{
 
 
     /* media Query */
+
+
+    /* For mobile Screens */
 @media (max-width: 600px) {
 
     .navbar{
@@ -237,11 +241,11 @@ footer .footer-txt a{
         width: 100%;
     }
 
-    .navbar .nav-box .nav-list{
+    .navbar .nav-box .nav-links-left{
         width: 70%;
     }
 
-    .navbar .nav-list-rt{
+    .navbar .nav-links-right{
         width: 30%;
 
     }
